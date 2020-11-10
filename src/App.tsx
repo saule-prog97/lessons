@@ -9,6 +9,7 @@ function App() {
     let [value, setValue] = useState<0 | 1 | 2 | 3 | 4 | 5>(1)
     let [accordionCollapsed, setAccordionCollapsed] = useState<boolean>(false)
     let [on, setOn] = useState<boolean>(false)
+    console.log('test for github')
 
 
   return (
